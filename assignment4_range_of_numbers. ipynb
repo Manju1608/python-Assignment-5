@@ -1,0 +1,54 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Welcome To Colaboratory",
+      "provenance": [],
+      "collapsed_sections": [],
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "display_name": "Python 3",
+      "name": "python3"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Manju1608/python-Assignment-4/blob/master/assignment4_range_of_numbers.%20ipynb\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "ry517vPl_uNh",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 149
+        },
+        "outputId": "a0e6e476-e58a-4a4f-cb6f-36b5de4650e8"
+      },
+      "source": [
+        " def test_range(n):    if n in range(1,100):        print( \" %s is in the range\"%str(n))    else :        print(\"The number is outside the given range:\")n=int(input(\"give the number to find range : \"))test_range(n)"
+      ],
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "error",
+          "ename": "SyntaxError",
+          "evalue": "ignored",
+          "traceback": [
+            "\u001b[0;36m  File \u001b[0;32m\"<ipython-input-2-12ff5ebd9f11>\"\u001b[0;36m, line \u001b[0;32m1\u001b[0m\n\u001b[0;31m    def test_range(n):    if n in range(1,100):        print( \" %s is in the range\"%str(n))    else :        print(\"The number is outside the given range:\")n=int(input(\"give the number to find range : \"))test_range(n)\u001b[0m\n\u001b[0m                           ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m invalid syntax\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
